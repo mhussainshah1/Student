@@ -1,0 +1,30 @@
+###
+GET http://localhost:8080/api/v1/student
+<> 2021-07-14T155746.400.json
+
+<> 2021-07-14T224406.400.html
+
+###
+POST http://localhost:8080/api/v1/student
+Content-Type: application/json
+
+{
+  "name": "Amir",
+  "email": "mhussainshah79@gmail.com",
+  "dob": "1995-12-17"
+}
+
+<> 2021-07-14T223048.500.json
+<> 2021-07-14T222922.500.json
+
+
+###
+DELETE http://localhost:8080/api/v1/student/1
+
+<> 2021-07-14T223939.500.json
+
+###
+PUT http://localhost:8080/api/v1/student/1?name=Maria&email=maria@gmail.com
+Content-Type: application/json
+
+<> 2021-07-14T225751.405.json
